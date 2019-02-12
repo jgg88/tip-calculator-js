@@ -18,7 +18,7 @@ calculate = () => {
     if (guestNumber === '') {
         guestNumber = 1;
     }
-    if (billAmount === '' || tipAmount === '' || tipAmount === '.') {
+    if (billAmount === '' || tipAmount === '') {
         resultText.style.display = 'none'
         validation.style.display = 'block';
     } else {
