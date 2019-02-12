@@ -1,0 +1,114 @@
+body {
+    margin: 0 auto;
+    background-color: #a7c079;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 163px;
+    width: 100%;
+    color: #FFFFFF;
+    font-size: 35px;
+}
+
+header h1 {
+    font-family: 'Raleway', sans-serif;
+    line-height: 45px;
+    margin: 0 107px 0 0;
+    z-index: 1;
+}
+
+header h2 {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    z-index: 1;
+}
+
+#divider {
+    border: 1px solid #FFFFFF;
+    width: 300px;
+    margin: 0;
+    position: absolute;
+    top: 135px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+#calculator-container {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    justify-content: center;
+    width: 250px;
+    height: 275px;
+    background-color: #f3f2f2;
+    display: flex;
+    padding: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+}
+
+input {
+    height: 30px;
+    width: 80px;
+    padding-right: 10px;
+    font-size: 19px;
+    text-align: right;
+}
+
+select {
+    height: 30px;
+    width: 150px;
+    font-size: 18px;
+}
+
+#calculate-button {
+    height: 40px;
+    width: 110px;
+    margin: 20px 0 0 138px;
+    color: #FFFFFF;
+    background-color: #c9431b;
+    font-size: 13px;
+}
+
+#bill-container, #guest-container, #tip-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#custom-tip-container {
+    display: none;
+}
+
+#exit-custom-tip {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    color: #FFFFFF;
+    background-color: #df3d3d;
+    border-radius: 3px;
+    font-size: 23px;
+    line-height: 24px;
+    border-radius: 15px;
+    position: relative;
+    left: 167px;
+    top: 3px;
+}
+
+#result-container {
+    height: 45px;
+    font-size: 25px;
+}
+
+#update-required {
+    display: none;
+    color: #df3d3d;
+    font-size: 18px;
+}
